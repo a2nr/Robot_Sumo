@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<BomTemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1</Version>
+  <Type>PartsOnly</Type>
+  <HeaderPosition>Top</HeaderPosition>
+  <AnchorPosition>LeftTop</AnchorPosition>
+  <Columns>
+    <BomColumnTemplate>
+      <Width>0.022221499999999998</Width>
+      <Title>ITEM NO.</Title>
+      <Type>ItemNumber</Type>
+      <Categoty>ItemNumber</Categoty>
+      <Property>ItemNumber</Property>
+    </BomColumnTemplate>
+    <BomColumnTemplate>
+      <Width>0.0666715</Width>
+      <Title>PART NUMBER</Title>
+      <Type>PartNumber</Type>
+      <Categoty>PartNumber</Categoty>
+      <Property>PartNumber</Property>
+    </BomColumnTemplate>
+    <BomColumnTemplate>
+      <Width>0.013121500000000001</Width>
+      <Title>QTY</Title>
+      <Type>Qty</Type>
+      <Categoty>Qty</Categoty>
+      <Property>Qty</Property>
+    </BomColumnTemplate>
+  </Columns>
+</BomTemplate>
